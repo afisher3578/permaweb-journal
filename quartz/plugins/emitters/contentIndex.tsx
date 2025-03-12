@@ -41,9 +41,9 @@ const defaultOptions: Options = {
 function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndexMap): string {
   const base = cfg.baseUrl ?? ""
   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<url>
-    <loc>https://${joinSegments(base, encodeURI(slug))}</loc>
-    ${content.date && `<lastmod>${content.date.toISOString()}</lastmod>`}
-  </url>`
+  <loc>https://${joinSegments(base, encodeURI(slug))}.html</loc>
+  ${content.date ? `<lastmod>${content.date.toISOString()}</lastmod>` : ""}
+</url>`
   const urls = Array.from(idx)
     .map(([slug, content]) => createURLEntry(simplifySlug(slug), content))
     .join("")
@@ -54,12 +54,12 @@ function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndexMap, limit?:
   const base = cfg.baseUrl ?? ""
 
   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<item>
-    <title>${escapeHTML(content.title)}</title>
-    <link>https://${joinSegments(base, encodeURI(slug))}</link>
-    <guid>https://${joinSegments(base, encodeURI(slug))}</guid>
-    <description>${content.richContent ?? content.description}</description>
-    <pubDate>${content.date?.toUTCString()}</pubDate>
-  </item>`
+  <title>${escapeHTML(content.title)}</title>
+  <link>https://${joinSegments(base, encodeURI(slug))}.html</link>
+  <guid>https://${joinSegments(base, encodeURI(slug))}.html</guid>
+  <description>${content.richContent ?? content.description}</description>
+  <pubDate>${content.date?.toUTCString()}</pubDate>
+</item>`
 
   const items = Array.from(idx)
     .sort(([_, f1], [__, f2]) => {

@@ -24,6 +24,11 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
   const options: ContentMetaOptions = { ...defaultOptions, ...opts }
 
   function ContentMetadata({ cfg, fileData, displayClass }: QuartzComponentProps) {
+    // Check frontmatter for excludeMeta flag
+    if (fileData.frontmatter?.excludeMeta) {
+      return null // Prevents rendering if excludeMeta is true
+    }
+
     const text = fileData.text
 
     if (text) {

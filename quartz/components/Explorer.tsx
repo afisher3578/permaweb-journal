@@ -33,7 +33,12 @@ const defaultOptions = {
       return -1
     }
   },
-  filterFn: (node) => node.name !== "tags",
+  filterFn: (node) => {
+    const allowedFiles = ["articles", "explore", "learn", "newsletter"]
+
+    // Ensure it's a file (not a folder) and is in the allowed list
+    return node.file !== null && allowedFiles.includes(node.name)
+  },
   order: ["filter", "map", "sort"],
 } satisfies Options
 
@@ -125,20 +130,6 @@ export default ((userOpts?: Partial<Options>) => {
           aria-expanded={true}
         >
           <h2>{opts.title ?? i18n(cfg.locale).components.explorer.title}</h2>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="14"
-            height="14"
-            viewBox="5 8 14 8"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="fold"
-          >
-            <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
         </button>
         <div id="explorer-content">
           <ul class="overflow" id="explorer-ul">

@@ -106,8 +106,9 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     const outgoing = details.links ?? []
 
     for (const dest of outgoing) {
+      const fixedDest = simplifySlug((dest.endsWith(".html") ? dest : `${dest}.html`) as FullSlug)
       if (validLinks.has(dest)) {
-        links.push({ source: source, target: dest })
+        links.push({ source: source, target: fixedDest })
       }
     }
 

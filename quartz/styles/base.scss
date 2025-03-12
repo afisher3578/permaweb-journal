@@ -602,3 +602,67 @@ iframe.pdf {
   transition: width 0.2s ease;
   z-index: 9999;
 }
+
+.article-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px; // Space between text and image
+  margin-bottom: 20px;
+
+  @media #{$mobile} {
+    flex-direction: column; // Stack on small screens
+    gap: 10px;
+  }
+}
+
+.article-text {
+  flex: 1;
+  text-align: left;
+}
+
+.article-thumbnail {
+  max-width: 200px; 
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+
+  a {
+    display: block; // Ensures full image is clickable
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: opacity 0.3s ease-in-out;
+
+    &:hover {
+      opacity: 0.8; // Optional hover effect
+    }
+  }
+
+  @media #{$mobile} {
+    max-width: 100%; // Make full-width on mobile
+  }
+}
+
+iframe {
+  width: 100%;
+  border: 1px solid #EEE;
+  background: white;
+
+  @media #{$mobile} {
+    max-width: 100%;
+    height: 250px;
+  }
+
+  @media #{$tablet} {
+    max-width: 550px;
+    height: 300px;
+  }
+
+  @media #{$desktop} {
+    max-width: 700px;  // Reduced from 800px
+    height: 350px;  // Slightly smaller height
+  }
+}

@@ -8,50 +8,50 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4",
+    pageTitle: "Permaweb Journal",
     pageTitleSuffix: "",
-    enableSPA: true,
+    enableSPA: false,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "permaweb-journal.arweave.net",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
-    generateSocialImages: true,
+    generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
         header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        body: "Manrope",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#FAFAFA", // Soft off-white for background
+          lightgray: "#e0e0e0", // Lighter gray for dividers, UI elements
+          gray: "#b0b0b0", // Neutral gray for secondary text
+          darkgray: "#3C3C3C", // Darker gray for body text
+          dark: "#1A1A1A", // Deep black for headings, strong contrast
+          secondary: "#1A1A1A", // Signature green for CTA buttons, highlights
+          tertiary: "#66BB6A", // Lighter green for hover states
+          highlight: "#F2F2F2", // Subtle highlight color
+          textHighlight: "#4CAF50", // Green highlight for important text
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#121212", // Dark mode background, slightly lifted black
+          lightgray: "#393939", // Darker gray for UI elements
+          gray: "#646464", // Mid-tone gray for secondary text
+          darkgray: "#d4d4d4", // Lighter gray for readability
+          dark: "#EAEAEA", // Off-white for primary text
+          secondary: "#EAEAEA", // Signature green for CTA and key elements
+          tertiary: "#66BB6A", // Lighter green for hover states
+          highlight: "rgba(76, 175, 80, 0.15)", // Subtle green tint for highlights
+          textHighlight: "#66BB6A", // Lighter green for emphasized text
         },
-      },
+}
     },
   },
   plugins: {
