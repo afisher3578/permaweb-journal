@@ -137,7 +137,7 @@ export default (() => {
 
     const iconPath = joinSegments(baseDir, "static/favicon.ico")
 
-    const ogImageDefaultPath = `https://${cfg.baseUrl}static/favicon.ico`
+    const ogImageDefaultPath = `https://${cfg.baseUrl}static/images/og-image.png`
     // "static/social-images/slug-filename.md.webp"
     const ogImageGeneratedPath = `https://${cfg.baseUrl}/${fileDir.replace(
       `${ctx.argv.output}/`,
@@ -185,6 +185,12 @@ export default (() => {
           name="google-site-verification"
           content="gDd8wt3JcbcB5us0oG4hc8jfc-Ub6mfXTbcaIG3b4wI"
         />
+        <script
+          async
+          src="https://ackee.frogfishsolutions.io/tracker.js"
+          data-ackee-server="https://ackee.frogfishsolutions.io"
+          data-ackee-domain-id="fb2569bc-c175-4636-b95b-60ba4ba24301"
+        ></script>
         {/* OG/Twitter meta tags */}
         <meta name="og:site_name" content={cfg.pageTitle}></meta>
         <meta property="og:title" content={title} />
@@ -212,7 +218,7 @@ export default (() => {
             <meta property="twitter:url" content={socialUrl}></meta>
           </>
         )}
-        <link rel="icon" href="/static/favicon.ico" type="image/x-icon"></link>
+        <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}

@@ -10,8 +10,8 @@ The permaweb is a decentralized web ecosystem that uses Arweave's permanent data
 
 Learn more about Arweave and AO in these permaweb learning guides.
 
-- [Arweave 101](reference/arweave-101.md)
-- [AO 101](reference/ao-101.md)
+- [Arweave 101](arweave.md)
+- [AO 101](ao.md)
 - [Permaweb](reference/permaweb.md)
 
 ---

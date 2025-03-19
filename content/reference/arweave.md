@@ -1,9 +1,10 @@
 ---
 title: Arweave 101
 description: Arweave is a decentralized protocol designed for **permanent storage** of data.
-permalink: 
+permalink:
 tags:
 ---
+
 Arweave is the first protocol to enable **permanent data storage**, allowing users to preserve data forever with a single, one-time fee. Curious about how it works and why it matters? Let’s explore.
 
 ## What is Arweave?
@@ -25,6 +26,7 @@ Arweave’s design combines an unique data structure called the **blockweave** w
 ## Resources
 
 **Arweave**
+
 - [Website](https://arweave.org/)
 - [Arweave Docs](https://docs.arweave.org/developers)
 - [GitHub](https://github.com/arweaveteam)
@@ -33,5 +35,6 @@ Arweave’s design combines an unique data structure called the **blockweave** w
 - [r/Arweave](https://www.reddit.com/r/Arweave/)
 
 Related Articles
+
 - [Storage Endowment](storage-endowment.md)
 - [Mining](arweave-mining.md)

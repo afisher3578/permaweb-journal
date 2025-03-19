@@ -13,6 +13,25 @@ excludeMeta: "true"
 
 <div class="article-text">
 
+<h3><a href="article/storage-endowment-explained.md">How Arweave’s storage endowment ensures permanent data storage</a></h3>
+
+<p><em>March 19, 2025</em></p>
+
+<p>Since Arweave’s launch nearly seven years ago, not a single token has been reissued from the endowment. This means the token supply continues to shrink as usage increases. Learn more about the storage endowment in this article</p>
+
+</div>
+
+<a href="article/storage-endowment-explained.md" class="article-thumbnail">
+
+<img src="/static/images/arweave-header.png" alt="Arweave Header">
+
+</a>
+
+</div>
+<div class="article-container">
+
+<div class="article-text">
+
 <h3><a href="article/pixl-fair-launch.md">Bazar's PIXL fair launch token</a></h3>
 
 <p><em>March 18, 2025</em></p>
