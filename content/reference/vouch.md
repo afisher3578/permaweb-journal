@@ -1,5 +1,9 @@
-# Vouch
-
+---
+title: Vouch
+description: 
+permalink: 
+tags:
+---
 The Vouch Protocol is a decentralized system for **proving identity and building trust** within the Arweave and AO ecosystems. It helps prevent **Sybil attacks**, where a single entity creates multiple fake accounts to manipulate a system. By using the Vouch Protocol, we can verify that entities (such as users, wallets, or organizations) are real and trustworthy.
 
 ## Why Does Sybil Resistance Matter?

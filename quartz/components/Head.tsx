@@ -135,9 +135,9 @@ export default (() => {
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
 
-    const iconPath = joinSegments(baseDir, "static/icon.png")
+    const iconPath = joinSegments(baseDir, "static/favicon.ico")
 
-    const ogImageDefaultPath = `https://${cfg.baseUrl}/static/og-image.png`
+    const ogImageDefaultPath = `https://${cfg.baseUrl}static/favicon.ico`
     // "static/social-images/slug-filename.md.webp"
     const ogImageGeneratedPath = `https://${cfg.baseUrl}/${fileDir.replace(
       `${ctx.argv.output}/`,
@@ -212,7 +212,7 @@ export default (() => {
             <meta property="twitter:url" content={socialUrl}></meta>
           </>
         )}
-        <link rel="icon" href={iconPath} />
+        <link rel="icon" href="/static/favicon.ico" type="image/x-icon"></link>
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}

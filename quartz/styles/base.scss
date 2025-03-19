@@ -666,3 +666,13 @@ iframe {
     height: 350px;  // Slightly smaller height
   }
 }
+
+#iframe-container, #glossary-frame-light {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: block;
+}

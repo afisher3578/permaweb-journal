@@ -1,6 +1,6 @@
 ---
 title: Arweave 101
-description: 
+description: Arweave is a decentralized protocol designed for **permanent storage** of data.
 permalink: 
 tags:
 ---
@@ -22,4 +22,16 @@ Arweave’s design combines an unique data structure called the **blockweave** w
 - **Proof of Access ([SPoRA](https://github.com/ArweaveTeam/arweave-standards/blob/master/ans/ANS-103.md))**: Miners must verify not only new data but also randomly selected older data to create new blocks. This ensures data is continually replicated and remains available.
 - **[Storage Endowment](storage-endowment.md)**: Your one-time payment contributes to a long-term fund, enabling miners to store your data indefinitely as storage costs decrease over time.
 
-Learn more about Arweave mining [here](arweave-mining.md).
+## Resources
+
+**Arweave**
+- [Website](https://arweave.org/)
+- [Arweave Docs](https://docs.arweave.org/developers)
+- [GitHub](https://github.com/arweaveteam)
+- [Yellow Paper](https://www.arweave.org/yellow-paper.pdf)
+- [X](https://x.com/ArweaveEco)
+- [r/Arweave](https://www.reddit.com/r/Arweave/)
+
+Related Articles
+- [Storage Endowment](storage-endowment.md)
+- [Mining](arweave-mining.md)

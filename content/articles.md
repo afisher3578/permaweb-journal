@@ -2,14 +2,75 @@
 title: Articles
 description: Coverage of the permaweb ecosystem including technical deep dives, project updates, op-eds and media features and more.
 permalink: /articles.html
-tags: 
+tags:
 excludeMeta: "true"
 ---
+
 Coverage of the permaweb ecosystem. Technical deep dives, project updates, op-eds and media features all live here.
 
 ---
 
 ## Latest Articles
+
+<div class="article-container">
+
+<div class="article-text">
+
+<h3><a href="article/pixl-fair-launch.md">Bazar's PIXL fair launch token</a></h3>
+
+<p><em>March 18, 2025</em></p>
+
+<p>The PIXL Fair Launch is here. Learn all about the PIXL fair launch allocation and how to earn PIXL rewards for purchasing digital content on the Universal Content Marketplace protocol.</p>
+
+</div>
+
+<a href="article/pixl-fair-launch.md" class="article-thumbnail">
+
+<img src="/static/images/pixl-header.png" alt="PIXL Header">
+
+</a>
+
+</div>
+
+<div class="article-container">
+
+<div class="article-text">
+
+<h3><a href="article/permaweb-index-takeaways.md">Permaweb Index is live: Key takeaways</a></h3>
+
+<p><em>March 17, 2025</em></p>
+
+<p>The Permaweb Index went live on Pi Day (3.14), introducing a new method for users to allocate their AO yield to ecosystem projects in exchange for the project tokens. Here are the key takeaways from the launch.</p>
+
+</div>
+
+<a href="article/permaweb-index-takeaways.md" class="article-thumbnail">
+
+<img src="/static/images/pi-takeaways-header.png" alt="PI Header">
+
+</a>
+
+</div>
+
+<div class="article-container">
+
+<div class="article-text">
+
+<h3><a href="article/ao-yield.md">How to allocate AO yield in the Permaweb Index</a></h3>
+
+<p><em>March 13, 2025</em></p>
+
+<p>The Permaweb Index launches on 3.14 (Pi Day), introducing a new model for funding crypto projects.This guide explains how to allocate AO yield step by step.</p>
+
+</div>
+
+<a href="article/.md" class="article-thumbnail">
+
+<img src="/static/images/pi-header.png" alt="PI Header">
+
+</a>
+
+</div>
 
 <div class="article-container">
 
@@ -71,8 +132,6 @@ Coverage of the permaweb ecosystem. Technical deep dives, project updates, op-ed
 
 </div>
 
-  
-
 <div class="article-container">
 
 <div class="article-text">
@@ -92,8 +151,6 @@ Coverage of the permaweb ecosystem. Technical deep dives, project updates, op-ed
 </a>
 
 </div>
-
-  
 
 <div class="article-container">
 
@@ -120,11 +177,13 @@ Coverage of the permaweb ecosystem. Technical deep dives, project updates, op-ed
 ## Media Coverage
 
 #### 2025
-- **[Feb 8]** [Arweave's computing platform AO goes live on mainnet](https://www.theblock.co/post/339450/arweaves-computing-platform-ao-goes-live-on-mainnet) - The Block  
-- **[Jan 27]** [Arweave 2.9 Upgrade Introduces Breakthrough Data Preparation Algorithm](https://www.businesswire.com/news/home/20250127112212/en/Arweave-2.9-Upgrade-Introduces-Breakthrough-Data-Preparation-Algorithm) - BusinessWire  
+
+- **[Feb 8]** [Arweave's computing platform AO goes live on mainnet](https://www.theblock.co/post/339450/arweaves-computing-platform-ao-goes-live-on-mainnet) - The Block
+- **[Jan 27]** [Arweave 2.9 Upgrade Introduces Breakthrough Data Preparation Algorithm](https://www.businesswire.com/news/home/20250127112212/en/Arweave-2.9-Upgrade-Introduces-Breakthrough-Data-Preparation-Algorithm) - BusinessWire
 - **[Jan 15]** [Arweave loads data onto lunar lander headed to the moon, meant to last for thousands of years](https://www.theblock.co/post/334757/arweave-lunar-lander) - The Block
 
-#### 2024  
-- **[Nov 14]** [Arweave 2.8: A Major Upgrade for the Permaweb](https://www.businesswire.com/news/home/20241114361211/en/Arweave-2.8-A-Major-Upgrade-For-The-PermaWeb) - BusinessWire  
-- **[April 12]**  [Community Labs Launches $35M AO Ventures Incubator Program for Arweave Ecosystem](https://finance.yahoo.com/news/community-labs-launches-35m-ao-064040071.html)- Yahoo Finance
-- **[Feb 27]**  [Arweave launches public testnet for 'hyper parallel' AO protocol](https://cryptobriefing.com/arweave-launches-public-testnet-for-hyper-parallel-ao-protocol/) -  Crypto Briefing
+#### 2024
+
+- **[Nov 14]** [Arweave 2.8: A Major Upgrade for the Permaweb](https://www.businesswire.com/news/home/20241114361211/en/Arweave-2.8-A-Major-Upgrade-For-The-PermaWeb) - BusinessWire
+- **[April 12]** [Community Labs Launches $35M AO Ventures Incubator Program for Arweave Ecosystem](https://finance.yahoo.com/news/community-labs-launches-35m-ao-064040071.html)- Yahoo Finance
+- **[Feb 27]** [Arweave launches public testnet for 'hyper parallel' AO protocol](https://cryptobriefing.com/arweave-launches-public-testnet-for-hyper-parallel-ao-protocol/) - Crypto Briefing

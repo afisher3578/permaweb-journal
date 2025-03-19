@@ -2,10 +2,72 @@
 title: Permaweb | Journal
 excludeMeta: "true"
 ---
+
 **Permaweb Journal** is an onchain publication and knowledge hub exploring the future of the internet and digital society built on Arweave and AO. Discover the permaweb through in-depth [articles](articles.md), [ecosystem projects](explore.md), and [technical resources](learn.md).
 
 ---
+
 ## Latest Articles
+
+<div class="article-container">
+
+<div class="article-text">
+
+<h3><a href="article/pixl-fair-launch.md">Bazar's PIXL fair launch token</a></h3>
+
+<p><em>March 18, 2025</em></p>
+
+<p>The PIXL Fair Launch is here. Learn all about the PIXL fair launch allocation and how to earn PIXL rewards for purchasing digital content on the Universal Content Marketplace protocol.</p>
+
+</div>
+
+<a href="article/pixl-fair-launch.md" class="article-thumbnail">
+
+<img src="/static/images/pixl-header.png" alt="PIXL Header">
+
+</a>
+
+</div>
+
+<div class="article-container">
+
+<div class="article-text">
+
+<h3><a href="article/permaweb-index-takeaways.md">Permaweb Index is live: Key takeaways</a></h3>
+
+<p><em>March 17, 2025</em></p>
+
+<p>The Permaweb Index went live on Pi Day (3.14), introducing a new method for users to allocate their AO yield to ecosystem projects in exchange for the project tokens. Here are the key takeaways from the launch.</p>
+
+</div>
+
+<a href="article/permaweb-index-takeaways.md" class="article-thumbnail">
+
+<img src="/static/images/pi-takeaways-header.png" alt="PI Header">
+
+</a>
+
+</div>
+
+<div class="article-container">
+
+<div class="article-text">
+
+<h3><a href="article/ao-yield.md">How to allocate AO yield in the Permaweb Index</a></h3>
+
+<p><em>March 13, 2025</em></p>
+
+<p>The Permaweb Index launches on 3.14 (Pi Day), introducing a new model for funding crypto projects.This guide explains how to allocate AO yield step by step.</p>
+
+</div>
+
+<a href="article/ao-yield.md" class="article-thumbnail">
+
+<img src="/static/images/pi-header.png" alt="PI Header">
+
+</a>
+
+</div>
 
 <div class="article-container">
 
@@ -81,6 +143,6 @@ excludeMeta: "true"
 ---
 
 ## Get Involved
+
 - [Become a member](https://paragraph.xyz/@permaweb-journal) by subscribing to the newsletter to stay up to date on the permaweb and be the first to know about future community initiatives.
 - [Submit a guest post](https://x.com/afmedia_)- Contact Alex if you’re interested in contributing to the journal.
-
