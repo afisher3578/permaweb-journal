@@ -1,8 +1,10 @@
+---
 name: "Add a New Project"
 description: Submit projects, services, or apps that are part of the Arweave ecosystem.
 title: "[NEW]: "
 labels: []
 assignees: ['afisher3578']
+---
 
 body:
 
