@@ -10,10 +10,10 @@ Arweave addresses this issue with the permaweb, which can host fully decentraliz
 
 The permaweb provides a comprehensive stack for building and running these applications:
 
-- [Arweave](arweave-101.md) : The core system that ensures data replication and availability through a decentralized, sustainable endowment.
+- [Arweave](arweave.md) : The core system that ensures data replication and availability through a decentralized, sustainable endowment.
 - [Gateways](gateways.md): Content delivery servers with diverse business models and incentives (e.g., arweave.net, ar.io, g8way.io, and aoweave.tech).
 - [GraphQL](https://cookbook.arweave.net/guides/querying-arweave/queryingArweave.html): A querying system offered by gateways, enabling seamless interaction with the network’s data. Developers can use GraphQL to search posts by users, filter data by tags or timestamps, and more, much like traditional web applications.
-- [AO](ao-101.md): A hyper-parallel computational layer that provides a unified environment for decentralized applications and processes.
+- [AO](ao.md): A hyper-parallel computational layer that provides a unified environment for decentralized applications and processes.
 
 ## The Composable Web
 

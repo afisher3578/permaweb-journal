@@ -82,10 +82,7 @@ For those looking to participate, now is the time to engage, earn, and contribut
 
 ## Resources
 
-**Bazar**
-
-- [Website](https://bazar.arweave.net/#/)
-- [X](https://x.com/OurBazAR)
+- [Bazar](projects/bazar.md)
 
 **AO**
 
