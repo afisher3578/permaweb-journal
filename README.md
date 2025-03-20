@@ -1,6 +1,6 @@
 # Permaweb Journal
 
-Welcome to [Permaweb Journal](https://permaweb-journal.arweave.net/), onchain publication covering the Arweave and AO ecosystems. We cover ecosystem developments, projects, and insights, ensuring that information is permanently stored and accessible on the permaweb.
+Welcome to [Permaweb Journal](https://permaweb-journal.arweave.net/), an onchain publication covering the Arweave and AO ecosystems. We cover ecosystem developments, projects, and insights, ensuring that information is permanently stored and accessible on the permaweb.
 
 ## Repository Overview
 
