@@ -26,7 +26,7 @@ Quartz requires **at least [Node](https://nodejs.org/) v20** and `npm` v9.
 1. Clone the repository:
    ```sh
    git clone https://github.com/afisher3578/permaweb-journal.git
-   cd quartz
+   cd permaweb-journal
    ```
 2. Install dependencies:
    ```sh
