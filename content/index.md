@@ -13,6 +13,30 @@ excludeMeta: "true"
 
 <div class="article-text">
 
+<h3><a href="article/ao-permaweb-guide.md">The role of AO in the permaweb ecosystem - A beginner’s guide</a></h3>
+
+<p><em>March 20, 2025</em></p>
+
+<p>The permaweb is a permanent, decentralized web built on Arweave, and AO provides the computational layer to power its next evolution. Learn how AO and HyperBeam enables decentralized applications, sustainable funding, and a new paradigm for the web.</p>
+
+</div>
+
+<a href="article/ao-permaweb-guide.md" class="article-thumbnail">
+
+<img src="/static/images/permaweb-header.png" alt="Permaweb Header">
+
+</a>
+
+</div>
+
+<div class="article-container">
+
+<div class="article-text">
+
+<div class="article-container">
+
+<div class="article-text">
+
 <h3><a href="article/storage-endowment-explained.md">How Arweave’s storage endowment ensures permanent data storage</a></h3>
 
 <p><em>March 19, 2025</em></p>
