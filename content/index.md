@@ -13,6 +13,26 @@ excludeMeta: "true"
 
 <div class="article-text">
 
+<h3><a href="article/hyperbeam-milestone-3.md">Legacynet SU compatibility: What this latest update means for HyperBEAM</a></h3>
+
+<p><em>March 24, 2025</em></p>
+
+<p>AO-Core just hit a major milestone: legacynet processes can now execute on HyperBEAM. This update brings seamless interoperability, improved performance, and a smoother transition from testnet to mainnet. Learn what this means for developers and the future of AO.</p>
+
+</div>
+
+<a href="article/hyperbeam-milestone-3.md" class="article-thumbnail">
+
+<img src="/static/images/milestone-3-header.png" alt="Permaweb Header">
+
+</a>
+
+</div>
+
+<div class="article-container">
+
+<div class="article-text">
+
 <h3><a href="article/ao-permaweb-guide.md">The role of AO in the permaweb ecosystem - A beginner’s guide</a></h3>
 
 <p><em>March 20, 2025</em></p>
